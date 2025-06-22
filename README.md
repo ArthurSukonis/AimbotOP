@@ -51,7 +51,7 @@ local function toggleAimbot(button)
     elseif aimbotConnection then
         aimbotConnection:Disconnect()
         aimbotConnection = nil
-    end
+    end 
 end
 
 -- GUI compatível pra qualquer executor
